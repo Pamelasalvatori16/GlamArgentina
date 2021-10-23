@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glam Argentina</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="icon" href="ico/img-ico.ico">
+    <meta name="description" content="Viajes de alta gama">
+    <meta name="keyword" content="viajes, argentina, alta gama">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:wght@200&display=swap');</style>
+    <script src="https://kit.fontawesome.com/3aad598415.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- navegación superior-derecha -->
+            <section>   
+                 <nav id="ubicacion-nav-sup">
+                    <a class="text-nav" href="inicio.html">Inicio</a>
+                    <a class="text-nav" href="viajes.html">Viajes</a>
+                    <a class="text-nav" href="inicio.html#ancla">Sobre mí</a>
+                    <a class="text-nav" href="https://www.facebook.com/luis.lahitte/"><i class="fab fa-facebook-square"></i></a>
+                    <a class="text-nav" href="https://www.instagram.com/luislahitte/"><i class="fab fa-instagram"></i></a>
+                 </nav>
+                <hr>
+            </section>
+       
+        <!-- Titulo -->
+            <section>
+                <h1>GLAM ARGENTINA</h1>
+                <div id="titulo2">Viajes de Alta Gama <br> <span id="firma"> by Luis Lahitte</span></div>
+            </section>
+    
+            <br>
+    
+        </header>
+  
+    <br>
+    
+    <main>
+        <form id="form" method="post" class="formulario" action="https://formspree.io/f/mwkaabbp">
+            <h3>Formulario de Contacto</h3>
+            <label for="nombre-apellido" size="50" maxlength="100">Nombre y Apellido:</label><input type="text" name="nombre-apellido" placeholder="Ingrese Nombre y Apellido" id="nombreApellido"><span>*</span>
+            <br><br>
+            <label for="telefono">Teléfono:</label><input id="tel" type="tel" name="area" placeholder="Cód.área"><input id="tel2" type="tel"name="telefono" placeholder="Ingrese el número sin 0 ni 15"><span>*</span>
+            <br><br>
+            <label for="email">Correo electrónico</label><input id="email" type="email" name="email" placeholder="Ingrese su mail aqui..."><span>*</span>
+            <br><br>
+            <label for="mensaje">Mensaje:</label><div id="text-area"><textarea name="mensaje" rows="10" cols="100" placeholder="Escriba su mensaje aquí..."></textarea></div>
+            <br><br>
+            <div id="campo-oblig">*Campos obligatorios</div>
+            <span><input id="boton" type="submit" value="Enviar"></span>
+        </form>
+       
+    <!-- Newsletter y Milenium    -->
+    <section class="radio"> 
+        <form class="newsletter" action="https://formspree.io/f/xgerdnrg">
+            <i id="img-sobre" class="far fa-envelope"></i>
+            <p id="titulo-news" >Newsletter!</p>
+            <div><p id="correo-e">Correo electrónico*</p></div>
+            <input id="mail" size="35" maxlength="100" type="mail">
+            <input id="enviar" type="submit" value="Enviar">
+        </form>
+
+        <div class="milenium">
+            <span><img id= "img-luis" src="img/radio-luis.jpg" alt="Luis-radio"></span>
+            <span><img id="img-radio" src="img/radio.jpg" alt="Milenium"></span>
+        </div>
+    </section>
+    
+    <br><br><br>
+
+</main>
+
+<br><br><br>
+<hr>
+
+<footer id="idFooter">
+
+            
+</footer>
+<script src="js/index.js"></script>
+<script src="js/contacto.js"></script>
+
+</body>
+</html>
