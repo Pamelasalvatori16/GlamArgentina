@@ -1,3 +1,5 @@
+//Footer
+
 let cad = `
 <div>
 <img id="img-montana" src="img/img-footer.jpg" alt="Footer">
@@ -17,3 +19,13 @@ let cad = `
 `
 
 document.getElementById("idFooter").innerHTML = cad;
+
+//Responsive nav bar
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
