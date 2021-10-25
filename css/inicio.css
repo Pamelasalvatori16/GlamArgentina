@@ -150,7 +150,8 @@ h2 {
 #section1 {
     border: 1px solid black;
     border-radius: 5%;
-    height: 30vh;
+    height: auto;
+    width: auto;
     margin:15% 5%;
     padding: 1.5% 2%;
 }

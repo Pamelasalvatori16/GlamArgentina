@@ -138,63 +138,68 @@ h1 {
         
     
 
-    /*radio + newsletter*/
+/*radio + newsletter*/
 
-    .radio {
-        display: flex;
-        justify-content: space-around;
-           }
+.radio {
+    display: flex;
+    justify-content: space-around;
+}
 
-    .milenium {
-        margin: 5% 5%;
-                }
+.milenium {
+    margin: 5% 5%;
+}
 
-    #img-luis {
-        width: 15vw;
-        height: 30vh;
-               }
+#img-luis {
+    width: 15vw;
+    height: 30vh;
+}
 
-    #img-radio {
-        width: auto;
-        height: 30vh;
-           }
+#img-radio {
+    width: auto;
+    height: 30vh;
+}
 
-    /*Newsletter*/
-    .newsletter {
-        width: 30%;
-        border: 1px solid black;
-        border-radius: 5%;
-        margin: 5% 2%;
-        padding: 1.5% 2%;
-             }
+/*Newsletter*/
+.newsletter {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 5% 2%;
+    padding: 1.5% 2%;
+}
 
-    section p  {
-        color:#3e3d3f;
-        font-size: 1.5rem;
-        font-weight:lighter;
-        margin-top: 3%;
-           }
+section p  {
+    color:#3e3d3f;
+    font-size: 1.5rem;
+    font-weight:lighter;
+    margin-top: 3%;
+}
 
-    #titulo-news {
-        color:#3D087B;
-        font-size: 2rem;
-        font-weight: bold;
-        text-align: center;
-        margin: 5% 5%;
-            }
+#titulo-news {
+    color:#3D087B;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 5% 5%;
+}
 
-    #mail {
-        margin: 10px 0px;
-        padding: 3px 0px;
-            }
+#enviar {
+    width: 5vw;
+    height: auto;
+}
+#mail {
+    width: 20vw;
+    height: auto;
+    margin: 10px 0px;
+    padding: 3px 0px;
+}
 
-    #img-sobre {
-        font-size: 5rem;
-        color:#3D087B;
-        margin: 5% 0% 5% 5%;
-        float:left
-              }
-
+#img-sobre {
+    font-size: 5rem;
+    color:#3D087B;
+    margin: 5% 0% 5% 5%;
+    float:left
+}
 
 /*Footer*/
 #img-montana {
