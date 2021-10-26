@@ -319,13 +319,13 @@ h4 {
 }
 
 /*Armado del responsive*/
-@media screen and (min-width:640px) and (max-width:1280px) {
+@media screen and (min-width:640px) and (max-width:900px) {
     .grid-container {
         display: grid;
         width: 100%;
         grid-template-columns:
-        0.6fr 
-        0.4fr;
+        0.5fr 
+        0.5fr;
         grid-template-rows:
         0.1
         0.2
@@ -341,8 +341,15 @@ h4 {
                     "section1  section2"
                     "   .      section2";       
     }
-    }
-    
+#section1 {
+    height: 30vh;
+    margin: 5% 2%;
+}
+#mail {
+    width: 40vw;
+}
+}
+
 @media screen and (max-width: 640px) {
 .grid-container {
         display: grid;
@@ -372,5 +379,8 @@ h4 {
 }
 #section1 {
     height: 40vh;
+}
+#mail {
+    width: 60vw;
 }
 }
