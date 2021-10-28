@@ -17,19 +17,19 @@ function validar() {
     return false;
   }
   else if (cArea.length > 5) {
-  alert("El código de área es demasiado largo"); 
+  alert("El código de área no es válido"); 
   return false;
   }
   else if (isNaN(cArea)){
-  alert("El código de área no es un número");
+  alert("El código de área no es válido");
   return false;
   }
   else if (tel2.length > 9) {
-  alert("El teléfono ingresado es demasiado largo"); 
+  alert("El teléfono ingresado no es válido"); 
   return false;
   }
   else if (isNaN(tel2)){
-  alert("El teléfono ingresado no es un número");
+  alert("El teléfono ingresado no es válido");
   return false;
   }
   else if (! expresion.test(email)) {
