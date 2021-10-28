@@ -45,13 +45,13 @@
     <br>
     
     <main>
-        <form id="form" method="post" class="formulario" action="https://formspree.io/f/mwkaabbp">
+        <form id="form" method="post" class="formulario" action="https://formspree.io/f/mwkaabbp" onsubmit="return validar();">
             <h3>Formulario de Contacto</h3>
             <label for="nombre-apellido" size="50" maxlength="100">Nombre y Apellido:</label><input type="text" name="nombre-apellido" placeholder="Ingrese Nombre y Apellido" id="nombreApellido"><span>*</span>
             <br><br>
-            <label for="telefono">Teléfono:</label><input id="tel" type="tel" name="area" placeholder="Cód.área"><input id="tel2" type="tel"name="telefono" placeholder="Ingrese el número sin 0 ni 15"><span>*</span>
+            <label for="cArea">Teléfono:</label><input id="cArea" type="tel" name="area" placeholder="Cód.área"><input id="tel2" type="tel"name="telefono" placeholder="Ingrese el número sin 0 ni 15"><span>*</span>
             <br><br>
-            <label for="email">Correo electrónico</label><input id="email" type="email" name="email" placeholder="Ingrese su mail aqui..."><span>*</span>
+            <label for="email">Correo electrónico</label><input id="email" type="text" name="email" placeholder="Ingrese su mail aqui..."><span>*</span>
             <br><br>
             <label for="mensaje">Mensaje:</label><div id="text-area"><textarea name="mensaje" rows="10" cols="100" placeholder="Escriba su mensaje aquí..."></textarea></div>
             <br><br>
